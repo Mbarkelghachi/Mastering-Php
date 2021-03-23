@@ -40,7 +40,7 @@
 			$age = array("mbark"=>"20", "issam"=>"24", "Aymne"=>"28");
 			//4 
 			define("name", "Mbark");
-			echo name ;
+			echo constant("name");
 	
 		?>
 

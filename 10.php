@@ -27,6 +27,25 @@
 	
 	*/
 	// 1 
+	class Chien{
+		 public $couleur_du_fourrure;
+		 public $couleur_des_yeux;
+
+	function set_name($des_yeux_color, $fourrure_color)
+{
+		$this->name1 = $fourrure_color;
+        $this->name2 = $des_yeux_color;
+	}
+	function get_name(){
+
+		echo $this->name1 . "<br>";
+        echo $this->name2;
+		
+	}
+}
+$haski = new chien();
+$haski->set_name('black', 'red');
+echo $haski->get_name();
 
 	
 	?>

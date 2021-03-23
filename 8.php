@@ -27,7 +27,7 @@
 	Étape 4 - Échoyez de la variable 
 	*/
 	//1 
-	$txt = "Hello world!";
+	$txt = "Testing";
 	//2 
    crypt($txt,'Mbark') ;
    // 3 
